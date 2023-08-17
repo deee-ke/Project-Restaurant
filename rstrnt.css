@@ -1,0 +1,711 @@
+
+*{
+    margin:auto;
+   
+    
+}
+
+body{
+    background-color: #fef8e8;
+    
+}
+
+/* .header-cover{
+    background-image: url('./Images/Group\ 32.jpg');
+    width: 100%; height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.header-cover{
+    background-image: url('./Images/headerbg.jpg');
+    width: 100%; height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.kerala{
+    color: #298100;
+    font-family: 'Kaushan Script', cursive !important;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    padding-top: 80px;
+    padding-left:400px ;
+}
+.kitchen{
+    color: #D91212;
+    font-family: 'Barriecito', cursive;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    padding-top:180px ;
+    padding-left: 500px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 350px;
+    
+    position: absolute;
+    
+    
+    width: 100%;
+    height: 70px;
+    border-radius: 0 0 30px 30px;
+    background: #FAF0BF;
+}
+
+.litem{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 125px;   
+}
+
+.alinks{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    color: #594000;
+    font-size: 20px;
+}
+
+.alinks:hover{
+    color: #298100;
+}
+
+.logo{
+    width: 87.384px;
+    height: 69.889px;
+    position: absolute;
+}
+
+#dancing{
+    position: absolute;
+    left: 0px;
+    width: 345px;
+    height: 300px;
+    margin-top: 65px;
+   /*  transform: rotate(9.674deg); */
+}
+#sadya{
+    position:absolute;
+    right: 10px;
+    width: 387px;
+    height: 387px;
+    margin-top: 10px;
+}
+
+.home{
+    display:flex ;
+    position: relative;
+}
+
+.chaya-text {
+    font-family: 'Kaushan Script', cursive !important;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 10px 0 30px 100px;
+    text-align: center;
+   
+}
+
+.oru{
+    color: #000000;
+    font-size: 100px;
+    margin-bottom: -30px;
+    transition: 1s;
+}
+.chaya{
+    color:#000000;
+    font-size: 50px;
+    margin-bottom: -30px;
+    transition: 1s;
+}
+.ayalo{
+    color: #D91212;
+    font-size: 80px;
+    transition: 1s;
+}
+
+.chaya-text:hover{
+    .oru,.chaya,.ayalo{
+        letter-spacing: 17px;
+    }
+}
+
+.chaya-img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:300px;
+    margin-right: 180px;
+    transition: transform 0.75s ;
+    position: relative;
+}
+.chaya-img img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    right: 0px;
+    top: 0px;
+    
+}
+
+.chaya-img:hover{
+    transform: scale(1.3);
+}
+
+#special{
+    margin: 100px 90px 0px 90px;
+   
+}
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 40px;
+    /* font-weight: 400; */
+    font-family: 'Kaushan Script', cursive !important;
+}
+.heading span{
+    color: #b70a0a;
+}
+
+.sp-grids{
+    margin: 7% 0 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap: 25px;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 280px;
+    /* border: 1px solid rgb(177, 175, 175); */
+    border-radius: 10px;
+    padding: 11px;
+    background-color: #fff;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.card:hover{
+    box-shadow: 0px 13px 19px 0px rgba(0,0,0,0.2);
+}
+
+.card img{
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0px 0px 0px;
+}
+
+.card-content h2{
+    /* font-family: 'DM Sans', sans-serif; */
+    margin: 0px;
+    
+}
+
+.rating{
+    margin: 0px;
+    background-color: rgb(6, 156, 6);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 3px;
+}
+.rating span{
+    color: white;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight:400;
+   
+}
+.rating i{
+    font-size:10px ;
+    padding-right: 5px;
+}
+.food-spec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0 0 0;
+    color: #696969;
+}
+.food-spec p,span{
+    margin: 0;
+}
+
+/* MENU-SECTION */
+
+#menu{
+    margin: 8% 8% 5% 8%;
+}
+
+.menu-card{
+    background-color: transparent;
+  width: 300px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 11px;
+  perspective: 1000px;
+}
+.menu-card-inner{
+    position: relative;
+  width: 300px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.menu-card:hover .menu-card-inner{
+    transform: rotateY(180deg);
+}
+.menu-card-front, .menu-card-back{
+    position: absolute;
+  width: 300px;
+  height: 320px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 11px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.menu-card-front{
+    background-color:rgb(255, 255, 255);
+    color: #6f0707;
+    font-family: 'DM Sans', sans-serif;
+}
+.menu-card-back{
+    background-color: #ffffff;
+    background-image: url(https://images.unsplash.com/photo-1603484477859-abe6a73f9366?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFwZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+  color:#a80707;
+  transform: rotateY(180deg);
+  
+}
+
+.menu-card-front img{
+    border-radius: 10px;
+    width: 300px;
+    height: 225px;
+}
+.menu-card-front h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.mc-back-content{
+    display: block;
+}
+.mc-back-content h1{
+    font-family: 'Kaushan Script', cursive !important;
+    margin: 20px 0 20px;
+    font-size: 39px;
+}
+
+.mc-back-content li, a{
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    color:#000000;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    /* text-decoration: underline; */
+    
+}
+
+.mc-back-content li:hover a{
+    font-size: 25px;
+    color:#298100;
+}
+.mc-back-content li:hover {
+    font-size: 25px;
+    color: #298100;
+}
+
+/* Ordering Food */
+
+#order{
+    margin: 8% 0 0 0;
+    background-color: white;
+}
+
+.order-head{
+    
+    /* border: 1px solid black; */
+    border-radius: 0 0 40px 40px;
+    width: 100%;
+    background-image: linear-gradient(to top,#0f9ece,rgb(255, 255, 255));
+}
+
+/* .order-content:hover #spnker{
+    display: none;
+}
+.order-content:hover:after{
+    content: Kochi;
+} */
+.order-title{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #bbbbbb;
+    height: 80px;
+    /* background-color: white; */
+}
+
+/* .order-logo{
+    width:50px;
+    height: 30;
+    margin-right: 10px;
+}
+
+.order-logo img{
+    width: 75px !important;
+    height: 50px !important; 
+}
+ */
+
+.name{
+    display: flex;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15px;
+    color:#298100;
+    margin-right:  10px;
+}
+.name span{
+    font-family: 'Barriecito', cursive;
+    color: #D91212;
+}
+
+.loc-content{
+    margin-left:10px;
+    margin-right: 100px;
+    /* padding-left: 10px; */
+}
+
+.location-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 10px;
+    border-left: 1px solid#bbbbbb;
+}
+
+.location-set h3{
+    margin: 0 5px 0 5px;
+    
+}
+.location-set i{
+    font-size: 20px;
+}
+
+.search{
+    width: 27%;
+    height: 65%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f5f5f5;
+    margin:auto 10px auto 100px ;
+    
+}
+
+.search input{
+    width:80%;
+    height: 40%;
+    border: none;
+    outline: none;
+    margin-left: 5%;
+    color: #02060c73;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    background: none;
+    
+    
+}
+
+.user-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+    margin-left: 30px;
+}
+.user-sign i{
+    font-size: 40px;
+}
+
+.order-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#span{
+    color: #d00a0a;
+}
+.order-img img{
+    width: 80%;
+    height: 80%;
+
+}
+
+.mind-sec{
+    margin: 2% 0 0 0;
+    padding-bottom: 5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mind-heading{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 0 0 8%;
+    padding-bottom: 1.5%;
+    
+}
+.mind-heading h1{
+    font-size: 40px;
+}
+.foods{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.food-img{
+    width: 12%;
+    height: 100%;
+    margin: 0 25px 0 25px;
+    
+    
+}
+
+.food-img:hover img{
+    box-shadow: 0px 0px 3px 2px #03b114;
+}
+
+
+.food-img h3{
+    text-align: center;
+    margin-top: 5%;
+}
+.food-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    display:flex;
+}
+
+
+footer{
+    background-color: rgb(245, 245, 245) !important;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: auto auto 0px auto;
+}
+
+.branch-sec{
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 40px;
+    text-align: start;
+    width: 280px;
+}
+.branch-sec h3{
+    margin-bottom: 10px;
+}
+
+.places ul{
+    padding-left: 0px;
+}
+
+.li-place{
+    list-style: none;
+    text-align: start;
+    font-weight:400;
+}
+.li-place:hover a{
+    color: #D91212;
+}
+
+
+
+.social-sec{
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.icon-set{
+    display: flex;
+    align-items:center;
+    margin-top: 10px;
+    justify-content: center;
+   
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+   /*  border: 1px solid black; */
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px 10px;
+    padding-bottom: 4.6px;
+}
+
+.icon i {
+    font-size: 35px;
+    color:black;
+    transition: transform 0.75s;
+}
+
+.icon:hover{
+    background-color:#D91212;
+}
+.icon:hover i{
+    color: white;
+    
+    transform: scale(1.80);
+}
+
+
+.up-arrow{
+    width: 50px;
+    height: 50px;
+   /*  border: 1px solid black; */
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px 10px;
+    /* padding-top: 7px; */
+    float: right;
+    margin: 100px 30px 50px 0px;
+}
+
+.up-arrow i {
+    font-size: 35px;
+    color:black;
+   /*  transition: transform 0.75s; */
+}
+
+.up-arrow:hover{
+    background-color:#D91212;
+}
+.up-arrow:hover i{
+    color: white;
+    
+    /* transform: scale(1.80); */
+}
+
+
+/* .up-arrow{
+    float: right;
+    margin: 100px 30px 50px 0px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+   
+}
+.up-arrow i{
+    transition: transform 0.75s;
+    font-size: 35px;
+    color:black;
+}
+
+.up-arrow:hover{
+    background-color:#D91212;
+}
+.up-arrow:hover i{
+    color: white;
+    
+    transform: scale(1.80);
+} */
+
+
+/* .logo-sec img{
+    width: 120px;
+} */
+
+.logo-sec{
+    display: flex;
+    
+    font-size: 20px;
+   /*  color:#298100; */
+    text-align: center;
+    /* margin: 30px 0 auto 50px; */
+    margin-top: 30px;
+    transition: transform 1s;
+}
+#kerala{
+    color:#298100;
+    font-family: 'Kaushan Script', cursive;
+}
+#kitchen{
+    color: #D91212;
+    font-family: 'Barriecito', cursive;
+}
+
+.logo-sec:hover{
+    transform: scale(1.25);
+}
+
+/* .logo-sec span{
+    font-family: 'Barriecito', cursive;
+    color: #D91212;
+} */
+
+.para{
+    margin-top: 40px;
+    padding-bottom: 60px;
+    
+    text-align: center;
+    font-size: 17.5px;
+}
+.para p{
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+html{
+    scroll-behavior: smooth; /* used for smooth scrolling */
+}
