@@ -91,16 +91,18 @@ body{
 #dancing{
     position: absolute;
     left: 0px;
-    width: 345px;
-    height: 300px;
+    bottom: 50px;
+    width: 17vw;
+    height: 35vh;
     margin-top: 65px;
    /*  transform: rotate(9.674deg); */
 }
 #sadya{
     position:absolute;
     right: 10px;
-    width: 387px;
-    height: 387px;
+    top: 5rem;
+    width: 21vw;
+    height: 40vh;
     margin-top: 10px;
 }
 
@@ -360,8 +362,10 @@ body{
     /* border: 1px solid black; */
     border-radius: 0 0 40px 40px;
     width: 100%;
-    background-image: linear-gradient(to top,#0f9ece,rgb(255, 255, 255));
+    background-image: linear-gradient(to top,#5bb791,rgb(255, 255, 255));
 }
+
+/* #5bb791 */
 
 /* .order-content:hover #spnker{
     display: none;
@@ -517,11 +521,12 @@ body{
 .food-img img{
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 15%;
     align-items: center;
     display:flex;
 }
 
+/* Footer-Section */
 
 footer{
     background-color: rgb(245, 245, 245) !important;
